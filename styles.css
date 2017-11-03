@@ -30,7 +30,7 @@ a img{border:0px;}
 	height:115px;
 	background-color:#222222;
 	padding:0px 43px;
-	position: relative;
+	position: fixed;
 	top:0px;
 	left:50%;
 	margin: 0 0 0 -475px;
@@ -51,7 +51,7 @@ a img{border:0px;}
 /* ABOUT SECTION */
 /****************************************************/
 
-#about{margin:0px auto; padding-top:20px;}
+#about{margin:0px auto; padding-top:115px;}
 #about h1{float:left; margin-bottom:50px;}
 #about #top-social{float:right; padding-top:62px;}
 #about #top-social li{float:left; list-style:none; margin-left:10px;}
@@ -97,7 +97,7 @@ a img{border:0px;}
 /* profil SECTION */
 /****************************************************/
 
-#profil{margin:0px 43px; padding-top:20px;}
+#profil{margin:0px 43px; padding-top:115px;}
 #profil .col{
 	width:235px;
 	float:left;
@@ -125,6 +125,7 @@ a img{border:0px;}
 /****************************************************/
 #contact{margin:0px 43px; padding-top:115px;}
 #contact .content{overflow:auto;}
+#contact h1{margin-bottom: 50px;}
 #contact #form{
 	width:410px;
 	float:left;
@@ -207,4 +208,8 @@ a img{border:0px;}
 .bottom-divider{margin-top:40px;}
 .p{
     text-align: justify;
+}
+
+td{
+    color: white;
 }
