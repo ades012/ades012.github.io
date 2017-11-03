@@ -17,7 +17,7 @@ a img{border:0px;}
 	margin:0px auto;
 	background:url(images/body-bg.png);
 	overflow:auto;
-	padding-bottom:100px;
+	padding-bottom:100px;  
 }
 
 /****************************************************/
@@ -38,6 +38,7 @@ a img{border:0px;}
 .header #logo{
 	padding-top:40px;
 	float:left;
+    width: 10px;
 }
 .header #main-menu{float:right; padding-top:45px;}
 .header #main-menu li{
@@ -81,17 +82,18 @@ a img{border:0px;}
 #about .content #service-icons{margin-top:20px;}
 #about .content #service-icons li{
 	display:block;
-	width:108px;
-	height:108px;
+	width:128px;
+	height:128px;
 	text-indent:-9999px;
 	list-style:none;
 	float:left;
 	margin-right:20px;
+    margin-top: 50px;
 }
-#about .content #service-icons li.services-design{background:url(images/icon-1.png) no-repeat;}
-#about .content #service-icons li.services-mobile{background:url(images/icon-2.png) no-repeat;}
-#about .content #service-icons li.services-film{background:url(images/icon-3.png) no-repeat;}
-#about .content #service-icons li.services-photo{background:url(images/icon-4.png) no-repeat;}
+#about .content #service-icons li.linux-arch{background:url(images/arch_128.png) no-repeat;}
+#about .content #service-icons li.linux-suse{background:url(images/suse_128.png) no-repeat;}
+#about .content #service-icons li.linux-debian{background:url(images/debian_128.png) no-repeat;}
+#about .content #service-icons li.linux-ubuntu{background:url(images/ubuntu_128.png) no-repeat;}
 
 /****************************************************/
 /* profil SECTION */
@@ -102,7 +104,7 @@ a img{border:0px;}
 	width:235px;
 	float:left;
 }
-#profil .content{overflow:auto;}
+#profil .content{overflow:auto; position: relative;}
 #profil .col-mid{margin:0px auto;}
 #profil h1{margin-bottom: 50px;}
 
@@ -183,17 +185,20 @@ a img{border:0px;}
 #contact #social-footer #sm-links li a{
 	display:block;
 	text-indent:-9999px;
-	width:26px; 
-	height:26px;
+	width:32px; 
+	height:32px;
 	margin-right:10px;
+    margin-top: 40px;
 }
-#contact #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
-#contact #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
+#contact #social-footer #sm-links li a.facebook{background:url(images/icon_socmed/facebook_32.png) no-repeat; width: 40px;}
+#contact #social-footer #sm-links li a.twitter{background:url(images/icon_socmed/twitter_32.png) no-repeat; width: 40px;}
+/*
+#contact #social-footer #sm-links li a.dribble{background:url(images/icon_socmed) no-repeat;}
 #contact #social-footer #sm-links li a.vimeo{background:url(images/sm-vimeo-icon.png) no-repeat; width:27px;}
-#contact #social-footer #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
-#contact #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+*/
+#contact #social-footer #sm-links li a.google{background:url(images/icon_socmed/google_32.png) no-repeat; width: 40px;}
+#contact #social-footer #sm-links li a.youtube{background:url(images/icon_socmed/youtube_32.png) no-repeat; width: 40px;}
+#contact #social-footer #sm-links li a.instagram{background:url(images/icon_socmed) no-repeat;}
 
 /****************************************************/
 /* MISC */
