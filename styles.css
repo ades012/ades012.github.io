@@ -97,13 +97,14 @@ a img{border:0px;}
 /* profil SECTION */
 /****************************************************/
 
-#profil{margin:0px 43px; padding-top:115px;}
+#profil{margin:0px 43px; padding-top:20px;}
 #profil .col{
 	width:235px;
 	float:left;
 }
 #profil .content{overflow:auto;}
 #profil .col-mid{margin:0px auto;}
+#profil h1{margin-bottom: 50px;}
 
 /****************************************************/
 /* WORK SECTION */
